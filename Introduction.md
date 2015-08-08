@@ -15,31 +15,31 @@ git config --global user.name "user_name"
 git config --global user.email "email_id"
 ```
 
-###local repository
+###Local repository
 ```
 git init (folder_name)
 ```
 (with .git)
 
-###create/upload to local repository
+###Create/Upload to local repository
 ```
 gedit/vim README.md/SAMPLE.py
 git add README.md/SAMPLE.py
 ```
 
-###attach commend on files(that already upload to local repository)
+###Attach commend on files(& upload to local repository)(neccessary)
 ```
 git commit -m "message"
 ```
 
 (Then create a repository on github.com)
 
-###set the destination of remote repository
+###Set the destination of remote repository
 ```
 git remote add origin https://github.com/user_name/Mytest.git
 ```
 
-###push from local to remote
+###Push from local to remote
 ```
 git push origin master
 ```
